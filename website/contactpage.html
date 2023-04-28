@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us</title>
+        <link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+<header>
+<h1><center>Contact Us</center></h1>
+		<h1>Sara Carter</h1>
+		<h2>Personal Trainer</h2>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="articles.html">Articles</a></li>
+				<li><a href="gallery.html" class="active">Gallery</a></li>
+				<li><a href="contactpage.html">Contact</a></li>
+				<li><a href="clientstories.html">Client Stories</a></li>
+		</ul>
+	</nav>
+</header>
+		
+		<form method="post" action="process_form.php">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			<label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone" required>
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+			<button type="submit">Submit</button>
+		</form>
+<footer>
+		<p>&copy; 2023 Sara Carter - Personal Trainer</p>
+	</footer>
+</body>
+</html>
